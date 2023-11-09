@@ -8,13 +8,14 @@
 /* BRANCO: Snow - #fffafa */
 /* PRETO: Night - #111111 */
 /* PRIMARIA: Azure - #007fff */
-
+/* SECUNDARIA: Silver - #c6c7c4 */
+/* TERCIARIA: Indigo Dye - #00416a */
 
 body {
     background-color: #111111;
     color: #fffafa;
 }
 
-strong {
+.titulo-destaque {
     color: #007FFF;
 }
