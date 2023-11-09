@@ -4,7 +4,17 @@
     box-sizing: border-box;
 }
 
+/** PALETA DE CORES */
+/* BRANCO: Snow - #fffafa */
+/* PRETO: Night - #111111 */
+/* PRIMARIA: Azure - #007fff */
+
+
 body {
-    background-color: black;
-    color: white;
+    background-color: #111111;
+    color: #fffafa;
+}
+
+strong {
+    color: #007FFF;
 }
