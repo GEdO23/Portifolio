@@ -74,6 +74,11 @@ body {
     /* DIMENSÃO */
     width: 378px;
     padding: 16px 0;
+    
+    /* POSICIONAMENTO */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     text-align: center;
     
     /* TEXTO */
@@ -90,4 +95,9 @@ body {
 
     /* FUNDO */
     /* background-color: #007FFF; */
+    transition: background-color .5s ease-in-out;
+}
+
+.apresentacao__links__link:hover, .apresentacao__links__link:focus {
+    background-color: #0080ff41;
 }
