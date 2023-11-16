@@ -14,8 +14,16 @@
 body {
     background-color: #111111;
     color: #fffafa;
+    height: 100vh;
 }
 
 .titulo-destaque {
     color: #007FFF;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
