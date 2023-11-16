@@ -4,7 +4,7 @@
 /** APRESENTAÇÃO / MAIN */
 
 .apresentacao {
-    margin: 6% 10%;
+    padding: 6% 10%;
     display: flex;
     justify-content: space-between;
 }
