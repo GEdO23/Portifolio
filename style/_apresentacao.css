@@ -21,7 +21,6 @@
     font-family: 'Krona One', sans-serif;
     line-height: 56px;
     font-weight: 400;
-    color: #fffafa;
 }
 
 .apresentacao__conteudo__texto {
@@ -29,7 +28,6 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 36px;
     font-weight: 400;
-    color: #fffafa;
 }
 
 /** APRESENTAÇÃO__DESTAQUES */
@@ -42,7 +40,6 @@
 }
 
 .texto-destaque {
-    color: #fffafa;
     transition: 
         color .2s ease-in-out,
         text-shadow .5s ease-in-out
@@ -70,7 +67,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
-    color: #fffafa;
 
 }
 
