@@ -38,7 +38,7 @@ body {
 .titulo-destaque:hover, 
 .texto-destaque:hover {
     color: #007FFF;
-    text-shadow: 0 0 2px #007FFF;
+    text-shadow: 0 5px 10px rgba(0, 128, 255, 0.3);
 }
 
 .apresentacao {
@@ -126,7 +126,7 @@ body {
 .apresentacao__links__link:focus {
     background-color: #272727;
     /* box-shadow: 0 0 10px #0080ff; */
-    text-shadow: 0 0 2px #fffafa;
+    text-shadow: 0 2px 2px rgba(255, 250, 250, 0.3);
     width: 420px;
 }
 
