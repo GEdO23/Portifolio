@@ -1,45 +1,7 @@
+/** IMPORTANDO FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/** PALETA DE CORES */
-/* BRANCO: Snow - #fffafa */
-/* PRETO: Night - #111111 */
-/* PRIMARIA: Azure - #007fff */
-/* SECUNDARIA: Silver - #c6c7c4 */
-/* TERCIARIA: Indigo Dye - #00416a */
-
-body {
-    height: 100vh;
-    background-color: #111111;
-    color: #fffafa;
-}
-
-.titulo-destaque {
-    color: #007FFF;
-    transition: 
-        color .2s ease-in-out,
-        text-shadow .5s ease-in-out
-    ;
-}
-
-.texto-destaque {
-    color: #fffafa;
-    transition: 
-        color .2s ease-in-out,
-        text-shadow .5s ease-in-out
-    ;
-}
-
-.titulo-destaque:hover, 
-.texto-destaque:hover {
-    color: #007FFF;
-    text-shadow: 0 5px 10px rgba(0, 128, 255, 0.3);
-}
+/** APRESENTAÇÃO / MAIN */
 
 .apresentacao {
     margin: 6% 10%;
@@ -69,6 +31,31 @@ body {
     font-weight: 400;
     color: #fffafa;
 }
+
+/** APRESENTAÇÃO__DESTAQUES */
+.titulo-destaque {
+    color: #007FFF;
+    transition: 
+        color .2s ease-in-out,
+        text-shadow .5s ease-in-out
+    ;
+}
+
+.texto-destaque {
+    color: #fffafa;
+    transition: 
+        color .2s ease-in-out,
+        text-shadow .5s ease-in-out
+    ;
+}
+
+.titulo-destaque:hover, 
+.texto-destaque:hover {
+    color: #007FFF;
+    text-shadow: 0 5px 10px rgba(0, 128, 255, 0.3);
+}
+
+/** APRESENTAÇÃO__LINKS */
 
 .apresentacao__links {
     display: flex;
@@ -110,8 +97,8 @@ body {
     border: 2px solid #007FFF;
     border-radius: 8px;
 
-    /* FUNDO */
-    /* background-color: #007FFF; */
+    /*// FUNDO */
+    /*// background-color: #007FFF; */
 
     /* TRANSIÇÃO */
     transition: 
@@ -125,11 +112,12 @@ body {
 .apresentacao__links__link:hover, 
 .apresentacao__links__link:focus {
     background-color: #272727;
-    /* box-shadow: 0 0 10px #0080ff; */
+    /*// box-shadow: 0 0 10px #0080ff; */
     text-shadow: 0 2px 2px rgba(255, 250, 250, 0.3);
     width: 420px;
 }
 
+/** APRESENTAÇÃO__IMAGEM */
 .apresentacao__imagem {
     height: 550px;
     border-radius: 16px;
@@ -144,5 +132,5 @@ body {
 
 .apresentacao__imagem:hover {
     box-shadow: 0 0 10px #0080ff;
-    /* height: 740px; */
+    /*// height: 740px; */
 }
