@@ -7,9 +7,9 @@
     line-height: 36px;
     text-align: center;
     
-    color: #111111;
+    color: var(--preto);
     
     /* FUNDO */
     padding: 24px 0;
-    background-color: #007fff;
+    background-color: var(--cor-primaria);
 }

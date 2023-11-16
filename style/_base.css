@@ -1,4 +1,28 @@
+:root {
+    /* BRANCO */
+    --branco: #fffafa;
+    --cinza-claro: #585757;
+
+    /* PRETO */
+    --cinza-escuro: #262626;
+    --preto: #111111;
+
+    /* COR PRIMARIA */
+    --cor-primaria: #007fff;
+
+    /* COR SECUNDARIA */
+    --cor-secundaria: #094988;
+
+    /* COR TERCIARIA */
+    --cor-terciaria: #00416a;
+}
+
 body {
-    background-color: #121212;
-    color: #fffafa;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.full-underline {
+    width: 100%;
+    border-bottom: 2px solid var(--branco);
 }
