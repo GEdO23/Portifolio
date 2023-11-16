@@ -1,10 +1,6 @@
-/** IMPORTANDO FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
-
 /** APRESENTAÇÃO / MAIN */
-
 .apresentacao {
-    padding: 6% 10%;
+    padding: 5% 10%;
     display: flex;
     justify-content: space-between;
 }
