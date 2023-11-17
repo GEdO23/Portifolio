@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -119,4 +120,16 @@
 
 .apresentacao__imagem:hover {
     box-shadow: 0 0 10px var(--cor-primaria);
+}
+
+
+/*? -------------------------------------------------------------------------------- */
+
+
+/*! MEDIA QUERY */
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
