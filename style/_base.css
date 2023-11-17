@@ -11,6 +11,16 @@
     /* FONTES */
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
+
+    /* TAMANHOS */
+    /* font-size */
+    --size-tit: 2.25rem; /* 36px */
+    --size-text: 1.5rem; /* 24px */
+
+    /* line-height */
+    --height-tit: 3.5rem; /* 56px */
+    --height-subtit: 2.5rem; /* 40px */
+    --height-text: 2.25rem; /* 36px */
 }
 
 body {
