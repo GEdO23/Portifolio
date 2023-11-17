@@ -10,7 +10,7 @@
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: var(--size-text);
     line-height: 29px;
     color: var(--cor-primaria);
     text-decoration: none;
