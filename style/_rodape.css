@@ -1,9 +1,9 @@
 .rodape {
     /* TEXTO */
     font-family: var(--fonte-secundaria);
-    font-weight: 100;
+    font-weight: 400;
     font-size: var(--size-text);
-    line-height: 36px;
+    line-height: var(--height-text);
     text-align: center;
     
     color: var(--preto);
