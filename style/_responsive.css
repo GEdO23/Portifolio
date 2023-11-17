@@ -1,7 +1,8 @@
 /*! MEDIA QUERY */
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 10%;
+        /* padding: 5% 10%; */
+        padding: 5% 2%;
     }
 
     .cabecalho__menu {
@@ -11,5 +12,21 @@
     .apresentacao {
         flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 100%;
+    }
+
+    .apresentacao__links__navegacao:hover, .apresentacao__links__navegacao:focus {
+        width: 100%;
+    }
+
+    .apresentacao__imagem {
+        width: 80%;
     }
 }
