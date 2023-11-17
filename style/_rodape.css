@@ -1,0 +1,15 @@
+/** RODAPÉ */
+.rodape {
+    /* TEXTO */
+    font-family: var(--fonte-secundaria);
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: var(--preto);
+    
+    /* FUNDO */
+    padding: 24px 0;
+    background-color: var(--cor-primaria);
+}

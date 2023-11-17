@@ -1,0 +1,24 @@
+:root {
+    /* CORES */
+    --branco: #fffafa;
+    --cinza-claro: #585757;
+    --cinza-escuro: #262626;
+    --preto: #111111;
+    --cor-primaria: #007fff;
+    --cor-secundaria: #094988;
+    --cor-terciaria: #00416a;
+
+    /* FONTES */
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.full-underline {
+    width: 100%;
+    border-bottom: 2px solid var(--branco);
+}
